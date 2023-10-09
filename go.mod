@@ -21,3 +21,5 @@ require (
 )
 
 replace github.com/btcsuite/btcd v0.20.1-beta => github.com/btcsuite/btcd v0.22.0-beta
+
+replace github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce => github.com/btcsuite/btcd/btcutil v1.0.0
