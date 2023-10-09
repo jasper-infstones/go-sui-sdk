@@ -3,7 +3,7 @@ module github.com/jasper-infstones/go-sui-sdk
 go 1.20
 
 require (
-	github.com/btcsuite/btcd/btcutil v1.1.0
+	github.com/btcsuite/btcd/btcutil v1.1.3
 	github.com/coming-chat/go-aptos v0.0.0-20230626110140-8331b0e6cdd4
 	github.com/fardream/go-bcs v0.4.0
 	github.com/mitchellh/hashstructure/v2 v2.0.2
@@ -26,4 +26,6 @@ replace github.com/btcsuite/btcd v0.22.0-beta => github.com/btcsuite/btcd v0.23.
 
 replace github.com/btcsuite/btcd v0.22.0-beta.0.20220111032746-97732e52810c => github.com/btcsuite/btcd v0.23.4
 
-replace github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce => github.com/btcsuite/btcd/btcutil v1.0.0
+replace github.com/btcsuite/btcutil v1.0.0 => github.com/btcsuite/btcd/btcutil v1.1.3
+
+replace github.com/btcsuite/btcd/btcutil v1.0.0 => github.com/btcsuite/btcd/btcutil v1.1.3
